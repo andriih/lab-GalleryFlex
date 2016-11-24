@@ -1,0 +1,47 @@
+*{	
+
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.header{
+	display:flex;
+	flex-basis: 100px;
+}
+.content{
+	display: flex;
+	width: 1300px;
+
+}
+.gallery{
+	display: flex;
+  	height: 1300px;
+  	justify-content: space-between;
+  	flex-direction: column;
+	
+}
+li{
+	text-decoration: none;
+}
+.gallery__item{
+	border: 1px solid grey;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	margin: 20px;
+  	padding: 10px;
+  	padding-bottom: 10px;
+
+}
+.gallery__link{
+	display: flex;
+	width: 200px;  
+  	height: 200px; 
+  	
+  	
+  	
+
+
+  
+
+
+}
