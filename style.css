@@ -15,15 +15,19 @@
 }
 .gallery{
 	display: flex;
-  	height: 1300px;
+  	height: 100%;
+  	width: 1300px;
   	justify-content: space-between;
   	flex-direction: column;
+  	overflow: hidden;
 	
 }
-li{
+.gallery:li{
+	
 	text-decoration: none;
 }
 .gallery__item{
+	display: flex;
 	border: 1px solid grey;
   	border-radius: 5px;
   	overflow: hidden;
@@ -36,12 +40,5 @@ li{
 	display: flex;
 	width: 200px;  
   	height: 200px; 
-  	
-  	
-  	
-
-
-  
-
 
 }
