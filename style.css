@@ -5,26 +5,30 @@
 	box-sizing: border-box;
 }
 .header{
-	
-	flex-basis: 200px;
+	height: 100px;
+	width: 1100px;
+	margin:0 auto;
+	padding-top: 50px;
 }
 .content{
-	
-	
-
+	display:flex;
+	width: 1200px;
+	margin: 0 auto;
 }
 .gallery{
 	display: flex;
-  	height: 100%;
-  	/*width: 1300px;*/
+	height: 100%;
+  	flex-wrap:wrap;
   	overflow: hidden;
+
 	
 }
-ul li{
-	text-decoration: none;
+.gallery:{
+	
 }
 .gallery__item{
 	display: flex;
+
 	border: 1px solid grey;
   	border-radius: 5px;
   	overflow: hidden;
@@ -34,7 +38,7 @@ ul li{
 
 }
 .gallery__link{
-	
+	text-decoration: none;
 	width: 200px;  
   	height: 200px; 
 
